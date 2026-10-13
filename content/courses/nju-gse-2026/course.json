@@ -497,8 +497,8 @@
       "meta": "蒋炎岩 · 97min · 42页",
       "web_source": {
         "tex": "source/lecture08/notes.tex",
-        "sha256": "8b7efbd212da56741ebf98fb2eae2cfdb3c80fe6e91fb2b8cced27cc76c4a798",
-        "pdf_sha256": "4fa562997920a07a95b9222d0ad784ea44fb0e1201a6597fc7cc13218ab4b283",
+        "sha256": "63f8afaa74f8240cb23789fa158f9e8e459ba8111910ed7ba43db0d22508ed32",
+        "pdf_sha256": "1b7fb982b3da628a9d79b127c87df7fff153d43faac43dce4acfd79ef6bb97b6",
         "expected": {
           "chapters": 11,
           "figures": 35,

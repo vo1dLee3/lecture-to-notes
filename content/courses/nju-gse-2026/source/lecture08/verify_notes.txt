@@ -1,4 +1,4 @@
-CJK_chars=11265 figures=36 sections=10 boxes=20 display_math=0 code=4 tables=1
+CJK_chars=11264 figures=36 sections=10 boxes=20 display_math=0 code=4 tables=1
 mode=technical-slide duration_min=97.2 need_CJK>=6801 need_figures>=28 need_sections>=8 need_boxes>=12 need_math>=0
 PASS density gates
 teaching_atoms total=37 missing=0
