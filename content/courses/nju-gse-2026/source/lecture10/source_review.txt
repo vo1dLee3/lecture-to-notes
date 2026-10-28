@@ -1,0 +1,17 @@
+# Source Review Audit — NJU GSE 2026 Lecture 10 (BV1Guxu6EERa)
+
+1. **ASR Health & Transcript Audit**
+   - `audio_raw.srt`: 3,686 subtitle blocks covering 00:00:00 to 01:39:53 (coverage 99.9955%, healthy=true).
+   - Initial 00:00–04:30 segment re-transcribed with `--condition-on-previous-text False` to eliminate a Whisper repetition loop.
+   - `subtitle_corrections.json`: 104 domain-specific ASR corrections applied (`Exponential Time Hypothesis`, `PTIME`, `Noether`, `Spence`, `USS Midway`, `Santa Maria`, `New Orleans`, `USS Jupiter`, `USS Langley`, `Parnas`, `EEVDF`, `SWE-bench`, `Taste-bench`, `Thurstone`, `Cordis`, `RFC`, `ADR`, `dsh-prose-standard`, `CEGIS`, `Solar-Lezama`, `Luchins`, `unslop`, `RSI`).
+
+2. **Visual Inspection & Figure Provenance Audit**
+   - Sampled 400 frames (`frame_0001.png` .. `frame_0400.png` at 15s intervals) and inspected all 7 compressed contact sheets (`contact_1.jpg` .. `contact_7.jpg`).
+   - Cropped 44 figures (`figures/fig_01_course_outline.png` .. `figures/fig_44_distill_myself_rsi.png`) using `bands.json` (`crop_bottom: 0`) and `layout.json` (`main: [828, 0, 1920, 616]`, `left: [0, 0, 823, 616]`).
+   - Inspected all 44 `1280px` review JPEGs (`review/fig_01_*.jpg` .. `review/fig_44_*.jpg`) visually and verified timestamp alignment in `figure_verification.txt`.
+   - Resolved discrepancy between spoken estimate (`22,000` / `22,580` commits) and exact on-screen terminal output in `fig_34_dsh_repo_stats.png` (`22,395` commits, `2,188` first-parent PR merges, `8,645` merge commits, `117` days from `2026-06-10` to `2026-10-17`, `76` contributors) by documenting both the exact screen statistics and spoken estimates in `notes.tex`.
+
+3. **Completeness & Verification Audit**
+   - `numerical_claims.tsv`: 13/13 extracted numerical claims verified present in `notes.tex` (`missing=0`).
+   - `teaching_atoms.tsv` & `timeline_coverage.tsv`: 38 teaching atoms across 15 timeline buckets (100% coverage of the 99m54s lecture).
+   - `verify_notes.py`: Checked structure, figure provenance, equations + symbol lists, callout boxes, tables, and typography (`OVERALL PASS`).

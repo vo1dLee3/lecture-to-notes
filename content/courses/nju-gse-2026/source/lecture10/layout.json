@@ -1,0 +1,53 @@
+{
+  "width": 1920,
+  "height": 616,
+  "frames": 60,
+  "source": "detected",
+  "composite": true,
+  "panels": [
+    {
+      "name": "main",
+      "box": [
+        823,
+        0,
+        1920,
+        616
+      ],
+      "aspect": "16:9",
+      "aspect_error": 0.0017,
+      "coverage": 0.989
+    },
+    {
+      "name": "left",
+      "box": [
+        0,
+        0,
+        823,
+        616
+      ]
+    },
+    {
+      "name": "screen_left",
+      "box": [
+        823,
+        0,
+        1372,
+        616
+      ]
+    },
+    {
+      "name": "screen_right",
+      "box": [
+        1372,
+        0,
+        1920,
+        616
+      ]
+    }
+  ],
+  "consistency": 1.0,
+  "candidates": [],
+  "warnings": [],
+  "unmatched_frames": [],
+  "unmatched_count": 0
+}

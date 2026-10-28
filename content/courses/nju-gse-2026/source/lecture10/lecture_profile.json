@@ -1,0 +1,11 @@
+{
+  "mode": "technical-slide",
+  "audience": "第一次阅读、具备基本编程与系统开发经验的读者",
+  "central_question": "大型复杂软件系统（如航空母舰般的智能体操作系统 DeepSeek Harness）是如何在时间维度上一步步演化出来的？当单点编码任务（SWE-bench）被强化学习攻克后，如何通过工程门禁与架构品味（Taste）驾驭 AI 在大空间中的演化？",
+  "reader_outcome": "理解复杂工程增量演化的历史规律，掌握 Parnas 模块化边界与 Git Rebase 冲突学习法，洞悉从 SWE-bench 到 Taste-bench（Thurstone 比较判断）的评测范式转移，并能复刻 DeepSeek Harness 的 RFC->ADR 决策链、7 类 68 条静态门禁以及超越局部反例修补（CEGIS/unslop）的设计空间跳跃方法。",
+  "visual_teaching_atoms": 44,
+  "formula_teaching_atoms": 6,
+  "vision": "yes",
+  "source_notes": "mlx_whisper 语音转写 + 104 项专业术语词表纠错字幕 + 原视频 44 幅课件/黑板板书/终端源码考古截图；课堂现场实测仓库统计与讲义页面完整对齐。",
+  "hardsub_detection_review": "全分辨率与裁剪面板复核确认右侧主讲屏幕面板无硬字幕覆盖；左侧黑板机位含固定教室标识与上传者水印，已按面板边界独立裁剪。"
+}

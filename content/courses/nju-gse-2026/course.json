@@ -606,6 +606,77 @@
           "figures/fig_33_five_contracts_audit.png": "c90e5baaa5f4e7ccad8ff45ea39b9d82afeeb748a1fe4fdd4dfd4a1471fd6214"
         }
       }
+    },
+    {
+      "file": "nju_gse_2026_10_software_evolution_zh.pdf",
+      "title": "第 10 讲：软件的演化（航母是怎么造出来的）",
+      "order": 10,
+      "expected_pages": 53,
+      "duration_minutes": 100,
+      "instructor": "蒋炎岩",
+      "source_url": "https://www.bilibili.com/video/BV1Guxu6EERa/",
+      "source_label": "B站",
+      "meta": "蒋炎岩 · 100min · 53页",
+      "web_source": {
+        "tex": "source/lecture10/notes.tex",
+        "sha256": "afd8c9e36c21a45bd7e2193119bc2ccbe864c28d0e02f552e5989c839ca11565",
+        "pdf_sha256": "0d3058ee17b7f6a2340a56d2a4b6f8e8d44a2e8fff80ce33e45cde125257cc27",
+        "expected": {
+          "chapters": 10,
+          "figures": 44,
+          "images": 44,
+          "callouts": 13,
+          "tables": 5,
+          "math": 198,
+          "time_tokens": 88
+        },
+        "resources": {
+          "figures/fig_01_course_outline.png": "a6613b22c39675c680d4191a13a4c0d10efeae1905b9e5f228cf4c059fad5c35",
+          "figures/fig_02_eth_paper.png": "275b6cb1ebf263c2424678e1a05799f0ad0e77552e181112e3c972c463cca1bd",
+          "figures/fig_03_human_tool_limits.png": "a27687fa52287685d3d871844e429550f7ebf87fd6a1fbcd6f6415d83f0df7f1",
+          "figures/fig_04_tree_of_life.png": "0bef682509cd9f97796a15795235a46b9c41eb01770ee47690f93051de1ea401",
+          "figures/fig_05_flat_region_symmetry.png": "bc61cce9d82e6b2edc1f2e937a58b587a2ae5fd7056ebda87742c05b4100cc9a",
+          "figures/fig_06_education_loop_spence.png": "ceaf04e2dd17346e4c3d5840924dfb2db513ec549367b5bb348b4fd8a644f2ac",
+          "figures/fig_07_ai_trajectory_resume.png": "3463f2b4e42c7853f21fa673ba21012ca93658d44d7c06c9fda97fe61d330190",
+          "figures/fig_08_board_growth_curves.png": "411d9bcc7f4a4457b6f97d61c7eebcd38662db4ddc9f81e5d795aa0611b74488",
+          "figures/fig_09_school_futures_loan.png": "67f29dad5a15c1bb79f33cb207ca60b0954e2128fa86432fd85f78a9c4cf077f",
+          "figures/fig_10_review_dsh_os.png": "99d2730c7516ab5f890247e110824dd60ce8cd412a1c65fb28d3ca623708de9f",
+          "figures/fig_11_uss_midway_photo.png": "f54ae29cbf492e124b7a3c887f3f806a46490986fe557d7419812703dab3b8b0",
+          "figures/fig_12_midway_internal_manual.png": "5a4005f77d5046dafd0764fe7b001bd33d4eb4381f72fe4475c5bd251ee55316",
+          "figures/fig_13_four_ships_overview.png": "78ace35cceee9e8647538124826945a31c3a85c88a93a00aad15aed249a4da60",
+          "figures/fig_14_1492_santa_maria.png": "1971944778b698ab3cce970b41b7c85345689e85080857f11a57a458b581a0dc",
+          "figures/fig_15_1811_new_orleans.png": "baab2ca16b6a9edee09d8c7257b19396958805794864cd91f730d91afce632a3",
+          "figures/fig_16_1922_langley_collier.png": "6e7d61273d4232f8a00b61557841f55edb9bb5c4598d742768fc264834ef3258",
+          "figures/fig_17_langley_elevator_hangar.png": "5c048c561dc6164c01ff424ed4919cf190871cc038f062c9e7d1c9665d7b064a",
+          "figures/fig_18_1945_midway_deck.png": "43ac194d87af908aff9a021d0a2cfb6766fbc3fda83943b4680811f93f56a5f9",
+          "figures/fig_19_midway_below_deck.png": "e8adc8031cc5b71492949e471ee86555c6dad9cc6eae43f8d4bcb8518493831c",
+          "figures/fig_20_ship_evolution_table.png": "3a3b98accd6c44c7d0132f397b61f156c99d4e34fa8684903601583df74f7cf2",
+          "figures/fig_21_building_agent_os.png": "6b2fe665395f2534777c1c3fb85ab90b21113c00baf4b7647d25126a5d7095e7",
+          "figures/fig_22_software_time_dimension.png": "d0c050ef81b4770d079d854f59b962ac0192dc4c3b5d70c0fb7dff7bc629e715",
+          "figures/fig_23_easy_vs_hard_change.png": "c735958fce36d0a85b27ce71bb666e1842af247ea8db6472e0a746a26fcc2149",
+          "figures/fig_24_state_machine_rebase.png": "90e837923b34892475eaccf7ddffe490b0e6ddd118a8d596ef14e5f22b4eda7e",
+          "figures/fig_25_board_rebase_vvar.png": "322b836169e46372811d5f70518a2c2ddec6ecb7a05587be6e94555e851b66c1",
+          "figures/fig_26_swebench_paper.png": "83be4864dd1ca6d0bc58a84be965ed4dcadc4d3f08925ffff78d3e9aad229e62",
+          "figures/fig_27_swebench_workflow.png": "7e8d0fa2d017d88df522af852c1e4033e53e87501b1f1f38fde219973b50f30e",
+          "figures/fig_28_swebench_table5.png": "d505324289dbb414f8c27bf3c793ee9998d91a85e7e845669ca2bb6f81c4fbd8",
+          "figures/fig_29_from_solve_to_taste.png": "7f6c9304116fd3474f27ed84ac540b171debde211e1c842870e8996ca1ac649e",
+          "figures/fig_30_dsh_evolution_gems.png": "8431c088734ee042af207c2fb31936fc34bc9414532a8f803615a9eda4761439",
+          "figures/fig_31_dsh_first_1000_part1.png": "d53ce153b1e6f6c114f5a617e59c808bf811250797c74916c6adf7298e047fbf",
+          "figures/fig_32_dsh_first_1000_part2.png": "dcf56994d0ac6154caafddc486bdb0e14694b921bec4005347c02da3bdd3e958",
+          "figures/fig_33_rfc_to_adr_example.png": "04f9f56d2929556e2558db729b992908aadadd6624810876a68c623c5a14cd17",
+          "figures/fig_34_dsh_repo_stats.png": "3df7a418d454d58bad922be14aa9ab0da3a1a7d6da9d3094965ad8fa8c6d1f71",
+          "figures/fig_35_ai_lost_in_large_space.png": "1be8160aebafc6d0bfba5c1495bc07f02ce3ec13b9369c6bf8a12eeb6090a1ba",
+          "figures/fig_36_good_code_gatekeeping.png": "0ed24bb148449088ea2c8058ba19e13429fbbf0556217cf7b55849d2ffe9bb1a",
+          "figures/fig_37_dsh_checks_overview.png": "281248c292bb85524b605c20a81830253f9f6ae2fc77220bbcfaa4897d20162e",
+          "figures/fig_38_dsh_checks_type_lint.png": "318e282fbe58d6244100708257f98dda046b1bc5bc74d8523982b2246058d356",
+          "figures/fig_39_dsh_checks_arch_boundary.png": "03906d1dffd8f661f0f3177d826e22bf954e290c6cd1dd886acbdf7740ae1345",
+          "figures/fig_40_bad_easy_good_hard.png": "39fe20edbdc9fbdd04a2eaf9bb73f773a71b95b27f85784a3fd26887a23dc33d",
+          "figures/fig_42_cegis_counterexamples.png": "12981809e98e176619da122c2f74d4eb027150ea613e5f51be32d0975d651eef",
+          "figures/fig_43_cursor_unslop_skill.png": "b76d4dc21190283ccda29ff13b4161fc499209cf9738a574a8dd5a2ae6e21557",
+          "figures/fig_41_luchins_water_jar.png": "8305492dca19cc6b9d60c3004ee7ab6ed9314d8ab3a25241b05eb5b0aaeda3ba",
+          "figures/fig_44_distill_myself_rsi.png": "da6d944dc80a07267b546375465689dc33c8a5222c071f6440a83973d37beb7e"
+        }
+      }
     }
   ]
 }

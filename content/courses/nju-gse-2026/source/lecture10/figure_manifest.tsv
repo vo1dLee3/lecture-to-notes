@@ -1,0 +1,45 @@
+figure	frame	start	end	topic	panel
+figures/fig_01_course_outline.png	frames/frame_0001.png	00:00:00	00:00:15	软件的演化课程大纲：日常震惊、航母演化史、软件时间维度与DeepSeek Harness演化	main
+figures/fig_02_eth_paper.png	frames/frame_0003.png	00:00:30	00:00:45	日常震惊综合症：关于指数时间假说（Exponential Time Hypothesis）前沿论文讨论	main
+figures/fig_03_human_tool_limits.png	frames/frame_0006.png	00:01:15	00:01:30	人类工具的边界：PTIME函数复合闭包幻觉与给定RAM模型运行K步的真实问题结构	main
+figures/fig_04_tree_of_life.png	frames/frame_0028.png	00:06:45	00:07:00	生物分类树（Tree of Life）可视化：理想树状层次在复杂现实中退化为图结构	main
+figures/fig_05_flat_region_symmetry.png	frames/frame_0032.png	00:07:45	00:08:00	我们刚好站在平坦的地方：对称性导出守恒量与可压缩规律的局部有效域	main
+figures/fig_06_education_loop_spence.png	frames/frame_0037.png	00:09:00	00:09:15	教育循环正在松动：家庭投资、大学培养、企业购买与Spence信号理论在AI时代的冲击	main
+figures/fig_07_ai_trajectory_resume.png	frames/frame_0043.png	00:10:30	00:10:45	用AI Trajectory证明自己：不可伪造的交互事实日志、随机采样校验与Agent共识预对齐	main
+figures/fig_08_board_growth_curves.png	frames/frame_0055.png	00:13:30	00:13:45	课堂板书：高考同分起跑线后的两条人生潜力演化曲线与多维能力向量评估	left
+figures/fig_09_school_futures_loan.png	frames/frame_0071.png	00:17:30	00:17:45	上学作为面向未来的期货投资：贷款上班的极端推演与AI能力核不扩散思考	main
+figures/fig_10_review_dsh_os.png	frames/frame_0080.png	00:19:45	00:20:00	上讲回顾：DeepSeek Harness作为微内核操作系统与1922年兰利号航母的演化隐喻	main
+figures/fig_11_uss_midway_photo.png	frames/frame_0096.png	00:23:45	00:24:00	圣地亚哥中途岛号航空母舰（USS Midway, CV-41）：1945年下水的复杂工程巨兽	main
+figures/fig_12_midway_internal_manual.png	frames/frame_0101.png	00:25:00	00:25:15	Midway内部复杂系统：蒸汽与电力通信管网、损管体系及服役老兵的操作手册法则	main
+figures/fig_13_four_ships_overview.png	frames/frame_0111.png	00:27:30	00:27:45	从风帆到海上机场的四代舰船演化总览：1492圣玛丽亚号至1945中途岛号	main
+figures/fig_14_1492_santa_maria.png	frames/frame_0114.png	00:28:15	00:28:30	1492年圣玛丽亚号（Santa Maria）：用风帆与索具在人类可理解的机械复杂度内远航	main
+figures/fig_15_1811_new_orleans.png	frames/frame_0118.png	00:29:15	00:29:30	1811年新奥尔良号（New Orleans）：高压蒸汽机驱动外置明轮与轮船一词的历史渊源	main
+figures/fig_16_1922_langley_collier.png	frames/frame_0128.png	00:31:45	00:32:00	1913至1922年从运煤船USS Jupiter到第一艘航母USS Langley（CV-1）的飞行甲板改装	main
+figures/fig_17_langley_elevator_hangar.png	frames/frame_0136.png	00:33:45	00:34:00	兰利号（USS Langley）内部结构创新：升降机、机库与吊车连接上下两层空间	main
+figures/fig_18_1945_midway_deck.png	frames/frame_0138.png	00:34:15	00:34:30	1945年中途岛号（USS Midway）：围绕航空作业从头设计的装甲飞行甲板与机库分区	main
+figures/fig_19_midway_below_deck.png	frames/frame_0140.png	00:34:45	00:35:00	Midway甲板之下：多锅炉舱冗余、蒸汽车间与损管隔舱支撑舰体持续运行	main
+figures/fig_20_ship_evolution_table.png	frames/frame_0143.png	00:35:30	00:35:45	舰船四代演化对比表：每增加一种核心能力就必须重新安排整套系统耦合关系	main
+figures/fig_21_building_agent_os.png	frames/frame_0147.png	00:36:30	00:36:45	从航母到软件：主讲团队AgentOS项目构建与AI时代大跨步MVP加工程重构范式	main
+figures/fig_22_software_time_dimension.png	frames/frame_0153.png	00:38:00	00:38:15	软件的时间维度：从简单Idea出发与Parnas（1972）模块化边界对长期演化的保护	main
+figures/fig_23_easy_vs_hard_change.png	frames/frame_0165.png	00:41:00	00:41:15	演化中何者易换何者难换：Linux调度器平滑替换与Python 2到3的十年语法迁移对比	main
+figures/fig_24_state_machine_rebase.png	frames/frame_0168.png	00:41:45	00:42:00	软件作为状态机模型：从Linux 0.11到现代内核的演化轨迹与git rebase学习法	main
+figures/fig_25_board_rebase_vvar.png	frames/frame_0195.png	00:48:30	00:48:45	课堂板书：状态机步进演化、Linux 0.11共享物理页（vDSO/vvar）构想与git rebase冲突定位	left
+figures/fig_26_swebench_paper.png	frames/frame_0209.png	00:52:00	00:52:15	ICLR 2024论文《SWE-bench: Can Language Models Resolve Real-World GitHub Issues?》首页	main
+figures/fig_27_swebench_workflow.png	frames/frame_0213.png	00:53:00	00:53:15	SWE-bench基准构建与评测流程：真实GitHub Issue、Golden Patch与测试集验证	main
+figures/fig_28_swebench_table5.png	frames/frame_0216.png	00:53:45	00:54:00	SWE-bench论文Table 5与仓库分布：2024年初Claude 3 Opus（3.79%）与GPT-4（1.31%）的早期表现	main
+figures/fig_29_from_solve_to_taste.png	frames/frame_0227.png	00:56:30	00:56:45	从解题能力到Taste：SWE-bench Verified突破65%后对Thurstone（1927）比较判断Taste-bench的呼唤	main
+figures/fig_30_dsh_evolution_gems.png	frames/frame_0260.png	01:04:45	01:05:00	DeepSeek Harness的演化：提交历史中的RFC/ADR决策链、单任务Worktree与分层验收宝藏	main
+figures/fig_31_dsh_first_1000_part1.png	frames/frame_0265.png	01:06:00	01:06:15	DeepSeek Harness前1000个提交四阶段全景：地基、可控执行环境、Web甲板跃迁与工程定型	main
+figures/fig_32_dsh_first_1000_part2.png	frames/frame_0271.png	01:07:30	01:07:45	DeepSeek Harness前1000个提交逐条拆解：Monorepo构建基础设施与源码Vendoring汇入Cordis框架	main
+figures/fig_33_rfc_to_adr_example.png	frames/frame_0294.png	01:13:15	01:13:30	源码仓库考古：从RFC征求意见稿到ADR架构决策记录（重构System Prompt存储位置）的双栏对照	main
+figures/fig_34_dsh_repo_stats.png	frames/frame_0308.png	01:16:45	01:17:00	DeepSeek Harness仓库规模实测：117天内22395次Git提交、2188次主干PR合并与76位贡献者	main
+figures/fig_35_ai_lost_in_large_space.png	frames/frame_0314.png	01:18:15	01:18:30	AI在大空间采样中仍易迷失方向：真人架构师驾驭下的216KB文字规矩与200余个工程脚本	main
+figures/fig_36_good_code_gatekeeping.png	frames/frame_0322.png	01:20:15	01:20:30	生产与人类对齐的好代码：通过静态门禁与dsh-prose-standard技能强行排除AI不良特征	main
+figures/fig_37_dsh_checks_overview.png	frames/frame_0324.png	01:20:45	01:21:00	DeepSeek Harness代码改动把关全景：七大分类68条工程门禁与三级拦截体系	main
+figures/fig_38_dsh_checks_type_lint.png	frames/frame_0333.png	01:23:00	01:23:15	门禁细则（一）：类型检查前移、禁止as unknown掩盖错误、Branded ID防混用与静态检查	main
+figures/fig_39_dsh_checks_arch_boundary.png	frames/frame_0354.png	01:28:15	01:28:30	门禁细则（二）：应用统一从dsh profile启动、verify-application-entrypoints与插件生命周期	main
+figures/fig_40_bad_easy_good_hard.png	frames/frame_0364.png	01:30:45	01:31:00	表达坏容易而表达好很难：AI分不清轻重导致负面补丁膨胀并抢夺上下文注意力	main
+figures/fig_41_luchins_water_jar.png	frames/frame_0400.png	01:39:45	01:40:00	设计空间的跳跃：Luchins（1942）水壶实验（127-21-2x3=100定势）揭示局部修补无法跳出死胡同	main
+figures/fig_42_cegis_counterexamples.png	frames/frame_0372.png	01:32:45	01:33:00	反例引导归纳合成（CEGIS）：反例补丁不断累加（番茄炒蛋不放蒜/香菜/辣椒）仍可能无法收敛到好品味	main
+figures/fig_43_cursor_unslop_skill.png	frames/frame_0385.png	01:36:00	01:36:15	Cursor的unslop技能源码剖析：枚举highlighting、ensuring、delve等AI高频词汇与句式黑名单	main
+figures/fig_44_distill_myself_rsi.png	frames/frame_0389.png	01:37:00	01:37:15	蒸馏我自己：利用历史回复邮件与可量化风格指标构建递归自我改进（RSI）闭环提炼通用准则	main
