@@ -245,8 +245,26 @@ npm run test:e2e                  # 桌面 Chromium / WebKit + iPhone 14 视口
 | `pandoc` + `beautifulsoup4` | 构建站点时 | `web_notes.py` 把 `notes.tex` 转成网页正文并核对计数与哈希 |
 | Node.js + `npm ci` | 构建站点时 | 锁定 PDF.js 与 Playwright 版本；PDF.js 随站点打包，不走公共 CDN |
 | `scripts/video_source.py` | ✓ | YouTube / Bilibili / X/Twitter URL 识别与元数据探测 |
+| `scripts/clean_artifacts.py` | 可选 | 清理工作目录：只保留 PDF / Markdown（默认 dry-run，白名单删除） |
 | `scripts/check_srt_health.py` | X/Twitter 字幕 | 检查 SRT 覆盖率、重复率和运行时窗口 |
 | Claude Code CLI | △ | 仅 `llm_correct_srt.py` 需要（复用本地登录态，无需 API key） |
+
+### 清理工作目录
+
+一次跑完的 `source/lectureNN/` 里堆着字幕、抽帧、`metadata.json`、`*.tsv`、`notes.aux`、日志……成品其实只有 `notes.pdf` 或 `*.md`（以及 md 引用的图片）。清理工具按**白名单**删中间产物，不认识的文件一律保留：
+
+```bash
+python3 scripts/clean_artifacts.py                        # 扫 content/courses，只报告
+python3 scripts/clean_artifacts.py --apply                # 真删（本仓库约 7.5 MB）
+python3 scripts/clean_artifacts.py ~/work/nju_os_07 --apply          # 指定某个讲义工作目录
+python3 scripts/clean_artifacts.py nju_os_07 --only-md    # 只留 *.md 与 assets/（讲义工作目录用这个）
+python3 scripts/clean_artifacts.py --apply --drop-tex     # 连 notes.tex 一起删（默认保留）
+```
+
+- **保留**：`*.pdf`、`*.md`（含 `README.md`，跳过 `outline.md`）、md 里 `![](...)` 引用的图片、`course.json`、**`notes.tex` 与 `figures/`**（网页正文由 `web_notes.py` 从 tex 生成，PDF 也靠它重编译）；
+- **删除**：`video.*`、`audio.*`、`*.srt` / `*.vtt`、`*.tsv`、`metadata.json` 一类元数据、`notes.aux/log/out`、`cover.jpg`、`*.log`、`frames/` `slides/` `parts/`、`assets/` 下没被讲义引用的孤图；要彻底只留 PDF/Markdown 时加 `--drop-tex`；
+- 给了目录路径就**直接清理**（只想看清单加 `--dry-run`）；不带参数扫 `content/courses` 时才需要 `--apply`；
+- `--only-md`：在常规清理之后，把 `assets/` 以外**不是 `*.md`** 的文件（tex、证据表、陌生文件）也删掉，最终目录只剩 `*.md` + `assets/`。
 
 ## 测试与 CI
 
@@ -291,6 +309,7 @@ PYTHONPATH=. python3 -m unittest discover -s tests -v   # 与 CI 完全相同的
 │   ├── frame_filter.py        # 导航条、字幕带、拼接分栏的测量与裁剪；讲者出镜帧打分
 │   ├── extract_claims.py      # 从字幕 / OCR 提取数值主张并核对讲义
 │   ├── verify_notes.py        # 交付前一次性门禁：密度、产物、编译日志、配图与脚注同页
+│   ├── clean_artifacts.py     # 清理工作目录：只留 PDF / Markdown，中间产物白名单删除
 │   ├── install_skill.sh       # 安装 skill 到 ~/.agents / ~/.claude / ~/.codex
 │   ├── release_notes.py       # 核对 VERSION 与 RELEASE_NOTES.md，提取 Release 正文
 │   ├── prepare_cover.sh       # 封面格式转换（webp/png → jpg）
