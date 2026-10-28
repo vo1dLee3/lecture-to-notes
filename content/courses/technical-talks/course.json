@@ -68,6 +68,54 @@
           "figures/fig_19_project_areas.jpg": "710eb196ad6894137e494ffd0924cca2e36c8d509240e50b6178bd98016b9939"
         }
       }
+    },
+    {
+      "legacy_id": "trust-coding-agents",
+      "file": "lauren_tan_trust_coding_agents.pdf",
+      "title": "如何真正信任你的编码智能体（How to Trust Your Coding Agents）",
+      "order": 3,
+      "expected_pages": 33,
+      "duration_minutes": 54,
+      "instructor": "Lauren Tan (@poteto, Cursor)",
+      "source_url": "https://x.com/tsukiema_/status/2114360674432303569/video/1",
+      "source_label": "X",
+      "meta": "Lauren Tan · 54min · 33页",
+      "web_source": {
+        "tex": "source/lauren_tan_trust_coding_agents/notes.tex",
+        "sha256": "cfdfebe62c0dbb88697aa5f62b03ee5cb53ec6aac1f9830e1a4e3d3ddf986829",
+        "pdf_sha256": "04d28e59da4b333bfe6b8fbd32b99227cf9e0a86a13e43e56253e29fb44438da",
+        "expected": {
+          "chapters": 6,
+          "figures": 20,
+          "images": 20,
+          "callouts": 8,
+          "tables": 2,
+          "math": 50,
+          "time_tokens": 40
+        },
+        "resources": {
+          "figures/fig_01_speaker_intro.png": "f74c7c1b4e313a939ec013742b2b5ff136b68843c9c21a88a464704f80ec7349",
+          "figures/fig_02_trust_curve.png": "187a406fdf0dd7187357c222aaf96fbca583cf778bda172d2621b250f55cb2d2",
+          "figures/fig_03_poteto_3000_prs.png": "cfe6d259a8462477218fdc97166ce7bc0cb77624ee8c659dbb6e984923a079f2",
+          "figures/fig_04_three_pillars.png": "705307aaf82eb26aebae9280002db30521d19ab436562350b43c1dbacb7ba6f7",
+          "figures/fig_05_control_glass_skill.png": "a6f005b66947776726a3054af46ce5d984bb3e4f17976f2d1d07549429eff337",
+          "figures/fig_06_pick_a_flow.png": "ba46d3d2cdc7141f759d0030ba530aaf7a727ee27fe2a3d79c84f679e599a689",
+          "figures/fig_07_worktree_quickstart.png": "6a571b38eacabd90831d5a6a7388b1d4df8c23d96782ebc859d924b798ecc915",
+          "figures/fig_08_feature_map_files.png": "1a89800e22f19b9b36084361ee1e5b2c82ba230e5c98ff9cf220d3aba797edda",
+          "figures/fig_09_baseline_preconditions.png": "2eb3492e685581a921635db20d9f46914d84138ece93a9a28df67b3881534b2f",
+          "figures/fig_10_driving_conventions.png": "a893e8c74ab3e4f360b5043eb770cd3d0d932f0b9571b75ed0203c980e4023f7",
+          "figures/fig_11_composer_chat_map.png": "7c4794573c5c4b22a390121635e527f0d935b3131f2fe715cdbe808d8c06614c",
+          "figures/fig_12_sidebar_driving_recipe.png": "8a881cfee75fbf5dcceefdb4663e9b650fa617f5b64ae096376e8c8004a71e96",
+          "figures/fig_13_pstack_skills.png": "f1eb0fee02fe320f7cb151923975e77b5647a652176011bff8aacbcb7c5b8664",
+          "figures/fig_14_skill_evals.png": "a40a7706c6bd8900dbadcb97f1d35437fdfb518fba84e7fa29b32b302c79c657",
+          "figures/fig_15_michelin_kitchen.png": "7d3cd844411133c60786b79a3166e06efbabf916f9a93c933ed5141f4aff009e",
+          "figures/fig_16_benny_cloud_agent.png": "d7dd8a7444b04969f52902841ac15f7e968749b7c5012224195e9869caf74833",
+          "figures/fig_17_greenfield_vs_brownfield.png": "44231db94308b855f9580f771bc826656643faaaed926c4be3dba32e9943586b",
+          "figures/fig_18_atomic_prs_stack.png": "9f994084a38bfa5de010105b4d28683b3b4a4d5c6ff80d0c3ba4066767d47e25",
+          "figures/fig_19_dune_contract.png": "9a5d0d5bda638bff439ca5bdd1c3e5da09fe8710730100e78bf08abeba526ea1",
+          "figures/fig_20_dune_enforcement_layers.png": "c486c5517ebe46dfb3f43d24bdff8ba8b80ae4fe1ff0be10d27030baf58e4811"
+        }
+      }
     }
   ]
 }
